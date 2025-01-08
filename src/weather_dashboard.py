@@ -80,7 +80,7 @@ def main():
             temp = weather_data['main']['temp']
             feels_like = weather_data['main']['feels_like']
             humidity = weather_data['main']['humidity']
-            description = weather_date['weather'][0]['description']
+            description = weather_data['weather'][0]['description']
 
             print(f"Temperature: {temp}F")
             print(f"Feels like: {feels_like}F")
